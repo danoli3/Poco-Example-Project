@@ -1,0 +1,38 @@
+LIB_POCO_0 = "PocoLib/ios/libPocoCrypto.a"
+LIB_POCO_1 = "PocoLib/ios/libPocoData.a"
+LIB_POCO_2 = "PocoLib/ios/libPocoDataSQLite.a"
+LIB_POCO_10 = "PocoLib/ios/libPocoFoundation.a"
+LIB_POCO_3 = "PocoLib/ios/libPocoJSON.a"
+LIB_POCO_32 = "PocoLib/ios/libPocoMongoDB.a"
+LIB_POCO_7 = "PocoLib/ios/libPocoNet.a"
+LIB_POCO_8 = "PocoLib/ios/libPocoNetSSL.a"
+LIB_POCO_4 = "PocoLib/ios/libPocoPDF.a"
+LIB_POCO_5 = "PocoLib/ios/libPocoUtil.a"
+LIB_POCO_6 = "PocoLib/ios/libPocoXML.a"
+LIB_POCO_9 = "PocoLib/ios/libPocoZip.a"
+
+
+//LIB_POCO_0 = "PocoLib/ios/PocoCrypto.a"
+//LIB_POCO_1 = "PocoLib/ios/PocoData.a"
+//LIB_POCO_2 = "PocoLib/ios/PocoDataSQLite.a"
+//LIB_POCO_10 = "PocoLib/ios/PocoFoundation.a"
+//LIB_POCO_3 = "PocoLib/ios/PocoJSON.a"
+//LIB_POCO_32 = "PocoLib/ios/PocoMongoDB.a"
+//LIB_POCO_7 = "PocoLib/ios/PocoNet.a"
+//LIB_POCO_8 = "PocoLib/ios/PocoNetSSL.a"
+//LIB_POCO_4 = "PocoLib/ios/PocoPDF.a"
+//LIB_POCO_5 = "PocoLib/ios/PocoUtil.a"
+//LIB_POCO_6 = "PocoLib/ios/PocoXML.a"
+//LIB_POCO_9 = "PocoLib/ios/PocoZip.a"
+
+HEADER_POCO = "PocoLib/include"
+
+MISC_FLAGS = "-ObjC"
+
+OTHER_LDFLAGS = $(MISC_FLAGS) $(LIB_POCO_0) $(LIB_POCO_1) $(LIB_POCO_2) $(LIB_POCO_3) $(LIB_POCO_32) $(LIB_POCO_4) $(LIB_POCO_5) $(LIB_POCO_6) $(LIB_POCO_7) $(LIB_POCO_8) $(LIB_POCO_9) $(LIB_POCO_10)
+HEADER_SEARCH_PATHS = $(HEADER_POCO)
+
+COMPRESS_PNG_FILES = NO
+GCC_THUMB_SUPPORT = NO
+IPHONEOS_DEPLOYMENT_TARGET = 5.1
+TARGETED_DEVICE_FAMILY = 1
